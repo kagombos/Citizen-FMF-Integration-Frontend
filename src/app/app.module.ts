@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AppleAuthComponent } from './apple-auth/apple-auth.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AppleAuthComponent
   ],
   imports: [
     BrowserModule,
