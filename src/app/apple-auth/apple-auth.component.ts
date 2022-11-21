@@ -6,8 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./apple-auth.component.scss']
 })
 export class AppleAuthComponent implements OnInit {
+  constructor() { 
 
-  constructor() { }
+  }
 
   ngOnInit(): void {
   }
